@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Rahul/OneDrive/Desktop/Journey/for-yu/app/page.tsx"],"sourcesContent":["import HeroSection from \"@/components/HeroSection\";\r\nimport PinkSection from \"@/components/PinkSection\";\r\nimport CandleRomance from \"@/components/CandleRomance\";\r\nimport LavenderSection from \"@/components/LavenderSection\";\r\nimport React from 'react'\r\n\r\nexport default function page() {\r\n    return (\r\n        <div>\r\n            <HeroSection />\r\n            <PinkSection />\r\n            <CandleRomance />\r\n            <LavenderSection />\r\n        </div>\r\n    )\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAMe,SAAS;IACpB,qBACI,8OAAC;;0BACG,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;0BACD,8OAAC;;;;;;;;;;;AAGb"}}]
+}

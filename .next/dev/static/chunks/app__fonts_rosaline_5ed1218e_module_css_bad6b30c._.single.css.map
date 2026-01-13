@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/_fonts/rosaline_5ed1218e.module.css"],"sourcesContent":["@font-face {\n    \nfont-family: 'rosaline';\n    src: url('@vercel/turbopack-next/internal/font/local/font?{%22path%22:%22./Rosaline/Rosaline-Regular.woff2%22,%22preload%22:true,%22has_size_adjust%22:true}') format('woff2');\n    font-display: swap;\n    \nfont-weight: 400;\nfont-style: normal;\n}\n\n@font-face {\n    font-family: 'rosaline Fallback';\n    src: local(\"Arial\");\n    ascent-override: 80.63%;\ndescent-override: 43.56%;\nline-gap-override: 4.63%;\nsize-adjust: 107.89%;\n\n}\n\n.className {\n    font-family: 'rosaline', 'rosaline Fallback';\n    \n}\n.variable {\n    --font-rosaline: 'rosaline', 'rosaline Fallback';\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;;;AAUA;;;;;;;;;AAUA;;;;AAIA"}}]
+}

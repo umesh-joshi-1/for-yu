@@ -1,0 +1,1789 @@
+[00:00:43.483] Server  LOG      ✓ Ready in 27.4s
+[00:02:42.449] Server  LOG      ○ Compiling / ...
+[00:02:52.051] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:52.611] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <page>
+              <div>
+                <section>
+                <PinkSection>
+                <CandleRomance>
+                <LavenderSection>
+                <YuviChildhood>
+                  <section className="relative w...">
+                    <img>
+                    <ImagePreload>
+                    <div>
+                    <div className="relative z...">
+                      <div>
+                      <DraggableCardContainer className="relative z...">
+                        <div className="perspectiv...">
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:100}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 100
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-68.50847628645874px) translateY(14.145055113567494px) rotate..."
+-                                 transform: "translateX(13.7839px) translateY(66.2559px) rotate(-9.03406deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "100"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:99}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 99
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(31.050423237853607px) translateY(-62.17091029586346px) rotate..."
+-                                 transform: "translateX(2.30521px) translateY(6.97398px) rotate(8.12153deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "99"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:98}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 98
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(62.25141290492178px) translateY(-17.50076613590182px) rotate(..."
+-                                 transform: "translateX(-22.152px) translateY(-13.0015px) rotate(7.29553deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "98"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:97}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 97
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-0.08724159702850898px) translateY(17.47126691755716px) rotat..."
+-                                 transform: "translateX(-21.3835px) translateY(29.0072px) rotate(-2.73574deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "97"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:96}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 96
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(50.491830911182944px) translateY(-4.213036296759157px) rotate..."
+-                                 transform: "translateX(30.9555px) translateY(-32.4153px) rotate(16.5208deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "96"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:95}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 95
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-51.81801458420428px) translateY(-31.274003094933917px) rotat..."
+-                                 transform: "translateX(-15.7299px) translateY(-21.4076px) rotate(-14.0998deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "95"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+          ...
+        ...
+
+[00:02:52.611] Browser WARN    Image with src "/1000137468.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.611] Browser WARN    Image with src "/1000137464.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.611] Browser WARN    Image with src "/1000137462.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.611] Browser WARN    Image with src "/1000137465.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:52.611] Browser WARN    Image with src "/1000137476.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:55.774] Browser WARN    Image with src "/1000137459.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:55.774] Browser WARN    Image with src "/1000137461.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:55.774] Browser WARN    Image with src "/1000137457.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:27.307] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:27.526] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="geist_59dbb69b-module__dmyMEG__variable rosaline_5ed1218e-module__eaUpPq__varia..."
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <div className="perspectiv...">
+                                <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:100}}>
+                                  <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                                    <MeasureLayout>
+                                    <div
+                                      onMouseMove={function handleMouseMove}
+                                      onMouseLeave={function handleMouseLeave}
+                                      className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transfo..."
+                                      draggable={false}
+                                      style={{
++                                       zIndex: 100
++                                       willChange: "transform"
++                                       opacity: 1
+-                                       opacity: "1"
++                                       transform: "translateX(15.772943671647369px) translateY(41.9421610037642px) ro..."
+-                                       transform: "translateX(47.8116px) translateY(48.0346px) rotate(5.91746deg)"
++                                       WebkitTouchCallout: "none"
++                                       WebkitUserSelect: "none"
++                                       userSelect: "none"
++                                       touchAction: "none"
+-                                       z-index: "100"
+-                                       will-change: "transform"
+-                                       user-select: "none"
+-                                       touch-action: "none"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                                <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:99}}>
+                                  <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                                    <MeasureLayout>
+                                    <div
+                                      onMouseMove={function handleMouseMove}
+                                      onMouseLeave={function handleMouseLeave}
+                                      className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transfo..."
+                                      draggable={false}
+                                      style={{
++                                       zIndex: 99
++                                       willChange: "transform"
++                                       opacity: 1
+-                                       opacity: "1"
++                                       transform: "translateX(46.406168372027736px) translateY(-60.04282678605263px) ..."
+-                                       transform: "translateX(-12.3536px) translateY(21.4118px) rotate(4.21674deg)"
++                                       WebkitTouchCallout: "none"
++                                       WebkitUserSelect: "none"
++                                       userSelect: "none"
++                                       touchAction: "none"
+-                                       z-index: "99"
+-                                       will-change: "transform"
+-                                       user-select: "none"
+-                                       touch-action: "none"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                                <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:98}}>
+                                  <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                                    <MeasureLayout>
+                                    <div
+                                      onMouseMove={function handleMouseMove}
+                                      onMouseLeave={function handleMouseLeave}
+                                      className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transfo..."
+                                      draggable={false}
+                                      style={{
++                                       zIndex: 98
++                                       willChange: "transform"
++                                       opacity: 1
+-                                       opacity: "1"
++                                       transform: "translateX(65.74921740740302px) translateY(23.861049084110476px) r..."
+-                                       transform: "translateX(42.6442px) translateY(-3.10224px) rotate(5.95759deg)"
++                                       WebkitTouchCallout: "none"
++                                       WebkitUserSelect: "none"
++                                       userSelect: "none"
++                                       touchAction: "none"
+-                                       z-index: "98"
+-                                       will-change: "transform"
+-                                       user-select: "none"
+-                                       touch-action: "none"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                                <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:97}}>
+                                  <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                                    <MeasureLayout>
+                                    <div
+                                      onMouseMove={function handleMouseMove}
+                                      onMouseLeave={function handleMouseLeave}
+                                      className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transfo..."
+                                      draggable={false}
+                                      style={{
++                                       zIndex: 97
++                                       willChange: "transform"
++                                       opacity: 1
+-                                       opacity: "1"
++                                       transform: "translateX(-29.977076376713377px) translateY(-63.908120451914805px..."
+-                                       transform: "translateX(-22.9073px) translateY(-19.0072px) rotate(13.8754deg)"
++                                       WebkitTouchCallout: "none"
++                                       WebkitUserSelect: "none"
++                                       userSelect: "none"
++                                       touchAction: "none"
+-                                       z-index: "97"
+-                                       will-change: "transform"
+-                                       user-select: "none"
+-                                       touch-action: "none"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                                <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:96}}>
+                                  <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                                    <MeasureLayout>
+                                    <div
+                                      onMouseMove={function handleMouseMove}
+                                      onMouseLeave={function handleMouseLeave}
+                                      className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transfo..."
+                                      draggable={false}
+                                      style={{
++                                       zIndex: 96
++                                       willChange: "transform"
++                                       opacity: 1
+-                                       opacity: "1"
++                                       transform: "translateX(-0.7294827548991663px) translateY(47.92298803269925px) ..."
+-                                       transform: "translateX(1.03629px) translateY(-32.4971px) rotate(-15.2636deg)"
++                                       WebkitTouchCallout: "none"
++                                       WebkitUserSelect: "none"
++                                       userSelect: "none"
++                                       touchAction: "none"
+-                                       z-index: "96"
+-                                       will-change: "transform"
+-                                       user-select: "none"
+-                                       touch-action: "none"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                                <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:95}}>
+                                  <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                                    <MeasureLayout>
+                                    <div
+                                      onMouseMove={function handleMouseMove}
+                                      onMouseLeave={function handleMouseLeave}
+                                      className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transfo..."
+                                      draggable={false}
+                                      style={{
++                                       zIndex: 95
++                                       willChange: "transform"
++                                       opacity: 1
+-                                       opacity: "1"
++                                       transform: "translateX(-11.770570975226718px) translateY(66.65989790820052px) ..."
+-                                       transform: "translateX(24.8549px) translateY(18.1231px) rotate(-12.8125deg)"
++                                       WebkitTouchCallout: "none"
++                                       WebkitUserSelect: "none"
++                                       userSelect: "none"
++                                       touchAction: "none"
+-                                       z-index: "95"
+-                                       will-change: "transform"
+-                                       user-select: "none"
+-                                       touch-action: "none"
+                                      }}
+                                      ref={function useMotionRef.useCallback}
+                                    >
+                  ...
+
+[00:03:27.526] Browser WARN    Image with src "/1000137468.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:27.527] Browser WARN    Image with src "/1000137464.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:27.527] Browser WARN    Image with src "/1000137462.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:27.527] Browser WARN    Image with src "/1000137476.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:27.527] Browser WARN    Image with src "/1000137457.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:27.527] Browser WARN    Image with src "/1000137461.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:27.527] Browser WARN    Image with src "/1000137459.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:29.356] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:29.547] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <page>
+              <div>
+                <section>
+                <PinkSection>
+                <CandleRomance>
+                <LavenderSection>
+                <YuviChildhood>
+                  <section className="relative w...">
+                    <img>
+                    <ImagePreload>
+                    <div>
+                    <div className="relative z...">
+                      <div>
+                      <DraggableCardContainer className="relative z...">
+                        <div className="perspectiv...">
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:100}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 100
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(21.963390188632232px) translateY(-37.793956545850925px) rotat..."
+-                                 transform: "translateX(28.4006px) translateY(-41.3054px) rotate(16.1002deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "100"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:99}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 99
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-56.218004459473825px) translateY(51.35595904962872px) rotate..."
+-                                 transform: "translateX(27.1905px) translateY(-13.8447px) rotate(-13.1403deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "99"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:98}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 98
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(1.6566674512638855px) translateY(-23.107626524578855px) rotat..."
+-                                 transform: "translateX(-18.7212px) translateY(-55.0865px) rotate(-1.62338deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "98"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:97}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 97
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-68.13824362378266px) translateY(33.38299109314737px) rotate(..."
+-                                 transform: "translateX(55.8436px) translateY(63.585px) rotate(8.91085deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "97"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:96}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 96
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-21.161385764935034px) translateY(-61.12163603823177px) rotat..."
+-                                 transform: "translateX(-63.2193px) translateY(-12.6097px) rotate(11.3855deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "96"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:95}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 95
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(61.20510100732784px) translateY(-43.22945093438916px) rotate(..."
+-                                 transform: "translateX(-22.7518px) translateY(45.285px) rotate(2.73704deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "95"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+          ...
+        ...
+
+[00:03:29.547] Browser WARN    Image with src "/1000137476.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:29.547] Browser WARN    Image with src "/1000137457.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:29.547] Browser WARN    Image with src "/1000137461.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:29.547] Browser WARN    Image with src "/1000137459.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:43.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:43.491] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <page>
+              <div>
+                <section>
+                <PinkSection>
+                <CandleRomance>
+                <LavenderSection>
+                <YuviChildhood>
+                  <section className="relative w...">
+                    <img>
+                    <ImagePreload>
+                    <div>
+                    <div className="relative z...">
+                      <div>
+                      <DraggableCardContainer className="relative z...">
+                        <div className="perspectiv...">
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:100}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 100
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(16.942921491697234px) translateY(-7.802429778627186px) rotate..."
+-                                 transform: "translateX(14.8312px) translateY(-12.2462px) rotate(-2.81619deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "100"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:99}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 99
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-54.150195040694086px) translateY(-65.92592651781575px) rotat..."
+-                                 transform: "translateX(-12.0753px) translateY(-45.3986px) rotate(-1.05076deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "99"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:98}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 98
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-22.279891649342566px) translateY(18.439821736546804px) rotat..."
+-                                 transform: "translateX(-59.1428px) translateY(63.8817px) rotate(3.30111deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "98"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:97}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 97
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-16.505435350961648px) translateY(43.42567043236501px) rotate..."
+-                                 transform: "translateX(26.3559px) translateY(-0.611473px) rotate(-5.77202deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "97"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:96}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 96
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(48.32304743795791px) translateY(-45.80830236752908px) rotate(..."
+-                                 transform: "translateX(-44.4033px) translateY(17.8867px) rotate(13.9366deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "96"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:95}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 95
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(37.32820647403962px) translateY(-17.744940263085503px) rotate..."
+-                                 transform: "translateX(37.432px) translateY(19.6892px) rotate(7.86381deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "95"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+          ...
+        ...
+
+[00:03:43.491] Browser WARN    Image with src "/1000137476.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:43.491] Browser WARN    Image with src "/1000137457.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:43.491] Browser WARN    Image with src "/1000137461.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:43.491] Browser WARN    Image with src "/1000137459.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:45.321] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:45.568] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <page>
+              <div>
+                <section>
+                <PinkSection>
+                <CandleRomance>
+                <LavenderSection>
+                <YuviChildhood>
+                  <section className="relative w...">
+                    <img>
+                    <ImagePreload>
+                    <div>
+                    <div className="relative z...">
+                      <div>
+                      <DraggableCardContainer className="relative z...">
+                        <div className="perspectiv...">
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:100}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 100
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(42.444988422973864px) translateY(-6.121229869825498px) rotate..."
+-                                 transform: "translateX(63.8025px) translateY(-50.4393px) rotate(10.8036deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "100"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:99}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 99
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(41.27913400808282px) translateY(59.368156288064796px) rotate(..."
+-                                 transform: "translateX(55.698px) translateY(68.0565px) rotate(14.0317deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "99"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:98}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 98
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-67.43947781194733px) translateY(30.583971520824193px) rotate..."
+-                                 transform: "translateX(-7.88252px) translateY(29.7723px) rotate(-17.1609deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "98"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:97}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 97
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(58.26783338658697px) translateY(-21.802780875062425px) rotate..."
+-                                 transform: "translateX(-7.6562px) translateY(-8.49866px) rotate(8.81784deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "97"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:96}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 96
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-45.319408335889456px) translateY(-48.0416825485068px) rotate..."
+-                                 transform: "translateX(37.2814px) translateY(67.9674px) rotate(0.259984deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "96"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:95}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 95
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(19.239056105606096px) translateY(-8.615592505393458px) rotate..."
+-                                 transform: "translateX(47.193px) translateY(-54.8062px) rotate(-12.8121deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "95"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+          ...
+        ...
+
+[00:03:45.568] Browser WARN    Image with src "/1000137476.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:45.568] Browser WARN    Image with src "/1000137457.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:45.568] Browser WARN    Image with src "/1000137461.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:45.568] Browser WARN    Image with src "/1000137459.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:46.430] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:46.576] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <page>
+              <div>
+                <section>
+                <PinkSection>
+                <CandleRomance>
+                <LavenderSection>
+                <YuviChildhood>
+                  <section className="relative w...">
+                    <img>
+                    <ImagePreload>
+                    <div>
+                    <div className="relative z...">
+                      <div>
+                      <DraggableCardContainer className="relative z...">
+                        <div className="perspectiv...">
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:100}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 100
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(37.866468055469014px) translateY(15.511094872906867px) rotate..."
+-                                 transform: "translateX(43.6225px) translateY(9.4915px) rotate(-9.14427deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "100"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:99}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 99
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(21.488848103060874px) translateY(-48.66371461331628px) rotate..."
+-                                 transform: "translateX(-64.3282px) translateY(-60.1317px) rotate(15.781deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "99"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:98}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 98
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(53.86532152171468px) translateY(-53.577978059541756px) rotate..."
+-                                 transform: "translateX(-7.28849px) translateY(-2.49899px) rotate(5.09924deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "98"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:97}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 97
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-22.529084740189845px) translateY(17.75629119110816px) rotate..."
+-                                 transform: "translateX(-51.6987px) translateY(64.1003px) rotate(-1.19226deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "97"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:96}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 96
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(53.6502720680749px) translateY(44.44640753056257px) rotate(0...."
+-                                 transform: "translateX(-44.1541px) translateY(8.98411px) rotate(11.5955deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "96"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:95}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 95
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(6.663567892244146px) translateY(-24.931889844068237px) rotate..."
+-                                 transform: "translateX(9.33526px) translateY(-48.9309px) rotate(15.5911deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "95"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+          ...
+        ...
+
+[00:03:46.576] Browser WARN    Image with src "/1000137476.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:46.576] Browser WARN    Image with src "/1000137457.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:46.576] Browser WARN    Image with src "/1000137461.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:46.576] Browser WARN    Image with src "/1000137459.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:46.925] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:47.151] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <page>
+              <div>
+                <section>
+                <PinkSection>
+                <CandleRomance>
+                <LavenderSection>
+                <YuviChildhood>
+                  <section className="relative w...">
+                    <img>
+                    <ImagePreload>
+                    <div>
+                    <div className="relative z...">
+                      <div>
+                      <DraggableCardContainer className="relative z...">
+                        <div className="perspectiv...">
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:100}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 100
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(31.79791886616256px) translateY(59.96400680859807px) rotate(1..."
+-                                 transform: "translateX(26.6812px) translateY(-34.4429px) rotate(16.122deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "100"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:99}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 99
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(57.563797285004625px) translateY(28.645207741122263px) rotate..."
+-                                 transform: "translateX(-20.3853px) translateY(-31.841px) rotate(8.82169deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "99"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:98}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 98
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-48.01301159756087px) translateY(-1.1275796960052986px) rotat..."
+-                                 transform: "translateX(-19.0131px) translateY(-12.7127px) rotate(-7.14696deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "98"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:97}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 97
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-34.349970430892554px) translateY(-9.41308348643701px) rotate..."
+-                                 transform: "translateX(-1.52253px) translateY(-48.1528px) rotate(11.3482deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "97"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:96}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 96
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(51.6598426656534px) translateY(1.4141011828669008px) rotate(-..."
+-                                 transform: "translateX(56.1164px) translateY(-59.605px) rotate(0.447592deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "96"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:95}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 95
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(44.19372378618223px) translateY(-15.607087800389195px) rotate..."
+-                                 transform: "translateX(60.4885px) translateY(22.3679px) rotate(-11.8317deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "95"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+          ...
+        ...
+
+[00:03:47.152] Browser WARN    Image with src "/1000137476.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:47.152] Browser WARN    Image with src "/1000137457.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:47.152] Browser WARN    Image with src "/1000137461.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:47.152] Browser WARN    Image with src "/1000137459.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:47.558] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:47.825] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <page>
+              <div>
+                <section>
+                <PinkSection>
+                <CandleRomance>
+                <LavenderSection>
+                <YuviChildhood>
+                  <section className="relative w...">
+                    <img>
+                    <ImagePreload>
+                    <div>
+                    <div className="relative z...">
+                      <div>
+                      <DraggableCardContainer className="relative z...">
+                        <div className="perspectiv...">
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:100}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 100
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-21.77082695912022px) translateY(-55.327322576975355px) rotat..."
+-                                 transform: "translateX(-8.10873px) translateY(-43.7294px) rotate(-6.85574deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "100"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:99}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 99
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(60.01473804238108px) translateY(34.42315779836561px) rotate(4..."
+-                                 transform: "translateX(-15.5661px) translateY(36.0656px) rotate(-16.9189deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "99"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:98}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 98
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(54.31146927792223px) translateY(-43.67649510934207px) rotate(..."
+-                                 transform: "translateX(-41.6322px) translateY(-65.7999px) rotate(-12.4254deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "98"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:97}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 97
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(12.08692569460949px) translateY(-42.57233613803781px) rotate(..."
+-                                 transform: "translateX(-63.3645px) translateY(-28.913px) rotate(7.85372deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "97"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:96}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 96
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(53.14943046876516px) translateY(29.239078562670258px) rotate(..."
+-                                 transform: "translateX(10.9564px) translateY(-48.572px) rotate(9.95224deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "96"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:95}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 95
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-41.80225305936047px) translateY(-66.90390295482723px) rotate..."
+-                                 transform: "translateX(9.21998px) translateY(-22.2465px) rotate(-11.357deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "95"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+          ...
+        ...
+
+[00:03:47.825] Browser WARN    Image with src "/1000137476.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:47.825] Browser WARN    Image with src "/1000137457.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:47.825] Browser WARN    Image with src "/1000137461.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:47.825] Browser WARN    Image with src "/1000137459.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:49.927] Browser WARN    Image with src "/1000137462.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:49.927] Browser WARN    Image with src "/1000137464.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:49.927] Browser WARN    Image with src "/1000137468.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:50.065] Browser WARN    Image with src "/1000137465.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:27.552] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:27.865] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.tsx">
+            <SegmentTrieNode>
+            <page>
+              <div>
+                <section>
+                <PinkSection>
+                <CandleRomance>
+                <LavenderSection>
+                <YuviChildhood>
+                  <section className="relative w...">
+                    <img>
+                    <ImagePreload>
+                    <div>
+                    <div className="relative z...">
+                      <div>
+                      <DraggableCardContainer className="relative z...">
+                        <div className="perspectiv...">
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:100}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 100
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-57.62994453422304px) translateY(-19.889189609008064px) rotat..."
+-                                 transform: "translateX(37.4592px) translateY(-40.2264px) rotate(-0.0720868deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "100"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:99}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 99
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-23.15118309276575px) translateY(-3.763587913124823px) rotate..."
+-                                 transform: "translateX(-53.5906px) translateY(30.9165px) rotate(-0.418236deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "99"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:98}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 98
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-1.3214884408464371px) translateY(19.540598899178377px) rotat..."
+-                                 transform: "translateX(-7.70737px) translateY(56.687px) rotate(4.06705deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "98"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:97}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 97
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(-13.34115120962693px) translateY(-24.43963719375781px) rotate..."
+-                                 transform: "translateX(59.7445px) translateY(-63.9174px) rotate(-4.13914deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "97"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:96}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 96
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(45.166493149522196px) translateY(33.96921449288985px) rotate(..."
+-                                 transform: "translateX(-23.3957px) translateY(0.631535px) rotate(-3.73107deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "96"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                          <DraggableCardBody className="absolute h..." initial={{...}} style={{zIndex:95}}>
+                            <motion.div initial={{...}} ref={{current:null}} drag={true} ...>
+                              <MeasureLayout>
+                              <div
+                                onMouseMove={function handleMouseMove}
+                                onMouseLeave={function handleMouseLeave}
+                                className="min-h-96 overflow-hidden rounded-md bg-neutral-100 shadow-2xl transform-3d ..."
+                                draggable={false}
+                                style={{
++                                 zIndex: 95
++                                 willChange: "transform"
++                                 opacity: 1
+-                                 opacity: "1"
++                                 transform: "translateX(6.4788643972325985px) translateY(-5.275464749350547px) rotate..."
+-                                 transform: "translateX(-37.0876px) translateY(-34.9336px) rotate(6.12584deg)"
++                                 WebkitTouchCallout: "none"
++                                 WebkitUserSelect: "none"
++                                 userSelect: "none"
++                                 touchAction: "none"
+-                                 z-index: "95"
+-                                 will-change: "transform"
+-                                 user-select: "none"
+-                                 touch-action: "none"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+          ...
+        ...
+
+[00:04:27.865] Browser WARN    Image with src "/1000137476.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:27.865] Browser WARN    Image with src "/1000137457.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:27.865] Browser WARN    Image with src "/1000137461.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:04:27.865] Browser WARN    Image with src "/1000137459.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
