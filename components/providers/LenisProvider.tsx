@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useEffect, useRef } from "react";
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis";
 
 const LenisContext = createContext<Lenis | null>(null);
 
@@ -13,7 +13,7 @@ export function LenisProvider({ children }: { children: React.ReactNode }) {
             duration: 1.2,
             easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
             // smooth: true, // Remove this line
-            smoothTouch: false,
+            syncTouch: false,
         });
 
         lenisRef.current = lenis;
