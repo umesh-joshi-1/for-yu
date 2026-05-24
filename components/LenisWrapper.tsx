@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis";
+
 
 export const LenisWrapper = ({ children }: { children: React.ReactNode }) => {
     const lenisRef = useRef<Lenis | null>(null);
@@ -13,7 +14,6 @@ export const LenisWrapper = ({ children }: { children: React.ReactNode }) => {
         });
 
         lenisRef.current = lenis;
-        window.lenis = lenis;
 
         let rafId: number;
         const raf = (time: number) => {

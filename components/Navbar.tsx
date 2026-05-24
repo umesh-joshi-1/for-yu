@@ -3,11 +3,6 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-declare global {
-    interface Window {
-        lenis?: { scrollTo: (target: string) => void };
-    }
-}
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,14 +15,12 @@ const Navbar = () => {
         e.preventDefault();
 
         if (window.location.pathname === "/") {
-            // Lenis removed: window.lenis?.scrollTo(href);
             setIsMenuOpen(false);
             return;
         }
 
         router.push("/" + href);
 
-        // Lenis removed: setTimeout(() => { window.lenis?.scrollTo(href); }, 500);
         setIsMenuOpen(false);
     };
 
