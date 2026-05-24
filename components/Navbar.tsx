@@ -11,7 +11,6 @@ declare global {
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-    const [, setIsInBeYourOwnBoss] = useState(false);
     const router = useRouter();
 
     const handleNavClick = async (
@@ -31,19 +30,6 @@ const Navbar = () => {
         // Lenis removed: setTimeout(() => { window.lenis?.scrollTo(href); }, 500);
         setIsMenuOpen(false);
     };
-
-    useEffect(() => {
-        const handleScroll = () => {
-            const section = document.getElementById("beYourOwnBoss");
-            if (section) {
-                const rect = section.getBoundingClientRect();
-                setIsInBeYourOwnBoss(rect.top < window.innerHeight && rect.bottom > 0);
-            }
-        };
-
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
 
     const [navVisible, setNavVisible] = useState(false);
 

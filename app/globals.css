@@ -146,17 +146,6 @@
 * {
   cursor: none !important;
 }
-/* 
-input,
-textarea,
-select {
-  cursor: text !important;
-}
-
-@keyframes sparkle {
-  0%, 100% { opacity: 0.6; transform: scale(1); }
-  50% { opacity: 1; transform: scale(1.2); }
-} */
 
 
 .perspective {

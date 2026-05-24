@@ -26,6 +26,7 @@ const CandleRomance = () => {
                 loop
                 muted
                 playsInline
+                preload="none"
                 className="absolute inset-0 w-full h-full object-cover"
             >
                 <source src="/bg-videos/candle-romance.mp4" type="video/mp4" />

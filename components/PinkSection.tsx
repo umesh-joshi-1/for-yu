@@ -7,9 +7,11 @@ const PinkSection = () => {
     return (
         <section className="relative w-full py-[70px] lg:py-[100px] overflow-hidden">
             {/* Background Image */}
-            <div
-                className="absolute inset-0 bg-cover bg-center"
-                style={{ backgroundImage: "url(/bg-images/5172214.jpg)" }}
+            <Image
+                src="/bg-images/5172214.jpg"
+                alt=""
+                fill
+                className="object-cover"
             />
             {/* Soft overlay */}
             <div className="absolute inset-0 bg-linear-to-b from-black/10 via-black/5 to-black/10" />

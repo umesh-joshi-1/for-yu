@@ -47,7 +47,6 @@ const YuviChildhood = () => {
                 src="/bg-images/white-texture.jpg"
                 alt="Childhood grass background"
                 fill
-                priority
                 className="object-cover"
             />
 

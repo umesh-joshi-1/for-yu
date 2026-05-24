@@ -11,7 +11,6 @@ const LavenderSection = () => {
                 src="/bg-images/lavender-flowers.jpg"
                 alt="Lavender background"
                 fill
-                priority
                 className="object-cover"
             />
 

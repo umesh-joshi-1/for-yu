@@ -1,9 +1,10 @@
+import dynamic from "next/dynamic";
 import HeroSection from "@/components/HeroSection";
-import PinkSection from "@/components/PinkSection";
-import CandleRomance from "@/components/CandleRomance";
-import LavenderSection from "@/components/LavenderSection";
-import YuviChildhood from "@/components/YuviChildhood";
-import React from 'react'
+
+const PinkSection = dynamic(() => import("@/components/PinkSection"));
+const CandleRomance = dynamic(() => import("@/components/CandleRomance"));
+const LavenderSection = dynamic(() => import("@/components/LavenderSection"));
+const YuviChildhood = dynamic(() => import("@/components/YuviChildhood"));
 
 export default function page() {
     return (

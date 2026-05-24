@@ -1,14 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import Image from "next/image";
 import { FlipWords } from "./ui/flip-words";
 import { ShineBorder } from "./ui/shine-border";
 
 const HeroSection = () => {
     return (
-        <section
-            className="relative w-full min-h-screen bg-cover bg-center pt-12"
-            style={{ backgroundImage: "url(/bg-images/soft-pink-bg.jpg)" }}
-        >
+        <section className="relative w-full min-h-screen pt-12">
+            <Image
+                src="/bg-images/soft-pink-bg.jpg"
+                alt=""
+                fill
+                priority
+                className="object-cover object-center"
+            />
             {/* Soft warm overlay */}
             <div className="absolute inset-0 bg-linear-to-b from-black/10 via-black/5 to-black/10" />
 
